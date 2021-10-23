@@ -9,7 +9,7 @@ public class MemberServiceTest {
     @Test
     void join() {
         //given
-        Member memberA = new Member(1l, "memberA", Grade.Vip);
+        Member memberA = new Member(1l, "memberA", Grade.VIP);
 
         //when
         memberService.join(memberA);
